@@ -1,0 +1,29 @@
+
+.nav {
+  background-color: purple;
+  color: white;
+
+  .wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .op {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+
+      .item {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
